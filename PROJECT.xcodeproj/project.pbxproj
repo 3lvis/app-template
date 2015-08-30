@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		146B00381B92BFDC0074EC79 /* App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 146B00361B92BFDC0074EC79 /* App.xcdatamodeld */; };
 		147A13DD1B92BA8500E52F9C /* UIViewController+AppFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147A13CD1B92BA8500E52F9C /* UIViewController+AppFrame.swift */; };
 		147A13DF1B92BA8500E52F9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 147A13D21B92BA8500E52F9C /* LaunchScreen.xib */; };
 		147A13E01B92BA8500E52F9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147A13D41B92BA8500E52F9C /* Images.xcassets */; };
 		147A13E21B92BA8500E52F9C /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147A13D71B92BA8500E52F9C /* AppController.swift */; };
 		147A13E61B92BABC00E52F9C /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147A13E51B92BABC00E52F9C /* RootController.swift */; };
 		147A13E81B92BAD000E52F9C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147A13E71B92BAD000E52F9C /* RootView.swift */; };
-		14CBDAF01B92BF8A0065E499 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 14CBDAEF1B92BF8A0065E499 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		146B00371B92BFDC0074EC79 /* App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App.xcdatamodel; sourceTree = "<group>"; };
 		147A13A41B92B9E300E52F9C /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147A13CD1B92BA8500E52F9C /* UIViewController+AppFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+AppFrame.swift"; sourceTree = "<group>"; };
 		147A13D31B92BA8500E52F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		147A13D71B92BA8500E52F9C /* AppController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
 		147A13E51B92BABC00E52F9C /* RootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootController.swift; sourceTree = "<group>"; };
 		147A13E71B92BAD000E52F9C /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		14CBDAEF1B92BF8A0065E499 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 		147A13CE1B92BA8500E52F9C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				14CBDAEF1B92BF8A0065E499 /* .gitkeep */,
+				146B00361B92BFDC0074EC79 /* App.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,7 +159,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14CBDAF01B92BF8A0065E499 /* .gitkeep in Resources */,
 				147A13DF1B92BA8500E52F9C /* LaunchScreen.xib in Resources */,
 				147A13E01B92BA8500E52F9C /* Images.xcassets in Resources */,
 			);
@@ -176,6 +175,7 @@
 				147A13E21B92BA8500E52F9C /* AppController.swift in Sources */,
 				147A13E61B92BABC00E52F9C /* RootController.swift in Sources */,
 				147A13E81B92BAD000E52F9C /* RootView.swift in Sources */,
+				146B00381B92BFDC0074EC79 /* App.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +316,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		146B00361B92BFDC0074EC79 /* App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				146B00371B92BFDC0074EC79 /* App.xcdatamodel */,
+			);
+			currentVersion = 146B00371B92BFDC0074EC79 /* App.xcdatamodel */;
+			path = App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 147A139C1B92B9E300E52F9C /* Project object */;
 }
