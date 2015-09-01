@@ -6,6 +6,10 @@ The folder structure looks like this:
 
 ![folder structure](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/project-structure-2.png)
 
+- [ ] Renamed AppDelegate to AppController
+- [ ] Removed Main.storyboard
+- [ ] Moved Info.plist, Image.xcassets and LaunchScreen.xib to **Resources**
+
 # Set up
 
 After cloning this project there are 3 steps that you'll have to follow in order to configure this template to your needs.
