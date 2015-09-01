@@ -6,9 +6,9 @@ The folder structure looks like this:
 
 ![folder structure](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/project-structure-2.png)
 
-- [ ] Renamed AppDelegate to AppController
-- [ ] Removed Main.storyboard
-- [ ] Moved Info.plist, Image.xcassets and LaunchScreen.xib to **Resources**
+- [x] Renamed AppDelegate to AppController
+- [x] Removed Main.storyboard
+- [x] Moved Info.plist, Image.xcassets and LaunchScreen.xib to **Resources**
 
 # Set up
 
