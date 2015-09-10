@@ -2,13 +2,13 @@
 
 This is a template for your iOS project. It's main purpose is to ease the creation of storyboard-less well structured apps.
 
-The folder structure looks like this:
-
-![folder structure](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/project-structure-2.png)
-
 - [x] Renamed AppDelegate to AppController
 - [x] Removed Main.storyboard
 - [x] Moved Info.plist, Image.xcassets and LaunchScreen.xib to **Resources**
+
+The folder structure looks like this:
+
+![folder structure](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/project-structure-2.png)
 
 # Set up
 
