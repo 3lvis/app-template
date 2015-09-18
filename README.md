@@ -27,3 +27,36 @@ Just double click your project name, type the new name and press ENTER.
 ### 3. Rename iOS Display Name
 
 ![Bundle name](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/step-3-rename-display-name-2.png)
+
+# README
+
+"X project" iOS app
+
+## Running the project
+
+- Install the [cocoapods](https://cocoapods.org) gem
+
+```
+sudo gem install cocoapods
+```
+
+- Run the following command in Terminal.app
+
+```
+pod install
+```
+
+- Open the `xcworkspace`
+
+## Updating generated models
+
+- Install [mogenerator](http://rentzsch.github.io/mogenerator/)
+- Run the following command in Terminal.app
+
+```
+mogenerator \
+--swift \
+--model App/Models/App.xcdatamodeld/App.xcdatamodel \
+--output-dir App/Models \
+--v2
+```
