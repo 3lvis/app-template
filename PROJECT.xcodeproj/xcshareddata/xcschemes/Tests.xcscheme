@@ -17,7 +17,7 @@
                BlueprintIdentifier = "148312881B92C11500266943"
                BuildableName = "Tests.xctest"
                BlueprintName = "Tests"
-               ReferencedContainer = "container:PROJECT.xcodeproj">
+               ReferencedContainer = "container:Project.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "148312881B92C11500266943"
                BuildableName = "Tests.xctest"
                BlueprintName = "Tests"
-               ReferencedContainer = "container:PROJECT.xcodeproj">
+               ReferencedContainer = "container:Project.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -45,7 +45,7 @@
             BlueprintIdentifier = "148312881B92C11500266943"
             BuildableName = "Tests.xctest"
             BlueprintName = "Tests"
-            ReferencedContainer = "container:PROJECT.xcodeproj">
+            ReferencedContainer = "container:Project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,7 +67,7 @@
             BlueprintIdentifier = "148312881B92C11500266943"
             BuildableName = "Tests.xctest"
             BlueprintName = "Tests"
-            ReferencedContainer = "container:PROJECT.xcodeproj">
+            ReferencedContainer = "container:Project.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
