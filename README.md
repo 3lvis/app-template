@@ -27,3 +27,5 @@ Just double click your project name, type the new name and press ENTER.
 ### 3. Rename iOS Display Name
 
 ![Bundle name](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/step-3-rename-display-name-2.png)
+
+### 4. Remove `GitHub` folder, remove `README`, rename `app-README` to `README`
