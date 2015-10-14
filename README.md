@@ -23,4 +23,4 @@ After cloning this project there are 3 steps that you'll have to follow in order
 
 ![Bundle name](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/step-3-rename-display-name-2.png)
 
-### 3. Remove `GitHub` folder, remove `README`, rename `app-README` to `README`
+### 3. Remove `README`, rename `app-README` to `README`
