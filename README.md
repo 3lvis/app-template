@@ -9,7 +9,7 @@ This is a template for your iOS project. It's main purpose is to ease the creati
 
 The folder structure looks like this:
 
-![folder structure](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/project-structure-2.png)
+![folder structure](https://raw.githubusercontent.com/3lvis/resources/master/app-template/project-structure.png)
 
 # Set up
 
@@ -17,10 +17,10 @@ After cloning this project there are 3 steps that you'll have to follow in order
 
 ### 1. Rename Bundle Identifier
 
-![Bundle indentifier](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/step-2-rename-bundle-2.png)
+![Bundle indentifier](https://raw.githubusercontent.com/3lvis/resources/master/app-template/rename-bundle.png)
 
 ### 2. Rename iOS Display Name
 
-![Bundle name](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/step-3-rename-display-name-2.png)
+![Bundle name](https://raw.githubusercontent.com/3lvis/resources/master/app-template/rename-display-name.png)
 
 ### 3. Remove `README.md`, rename `app-README.md` to `README.md`
