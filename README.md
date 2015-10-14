@@ -5,6 +5,7 @@ This is a template for your iOS project. It's main purpose is to ease the creati
 - [x] Renamed AppDelegate to AppController
 - [x] Removed Main.storyboard
 - [x] Moved Info.plist, Image.xcassets and LaunchScreen.xib to **Resources**
+- [x] Added iOS target, useful when you need other targets such as tvOS or watchOS.
 
 The folder structure looks like this:
 
@@ -14,18 +15,12 @@ The folder structure looks like this:
 
 After cloning this project there are 3 steps that you'll have to follow in order to configure this template to your needs.
 
-### 1. Rename Xcode Project
-
-Just double click your project name, type the new name and press ENTER.
-
-![Xcode project name](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/step-1-rename-project-2.png)
-
-### 2. Rename Bundle Identifier
+### 1. Rename Bundle Identifier
 
 ![Bundle indentifier](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/step-2-rename-bundle-2.png)
 
-### 3. Rename iOS Display Name
+### 2. Rename iOS Display Name
 
 ![Bundle name](https://raw.githubusercontent.com/3lvis/AppTemplate/master/GitHub/step-3-rename-display-name-2.png)
 
-### 4. Remove `GitHub` folder, remove `README`, rename `app-README` to `README`
+### 3. Remove `GitHub` folder, remove `README`, rename `app-README` to `README`
