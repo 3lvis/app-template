@@ -1,6 +1,6 @@
 # PROJECT_NAME
 
-[Project Description]
+PROJECT_DESCRIPTION
 
 ## Running the project
 
@@ -16,7 +16,7 @@ sudo gem install cocoapods
 pod install
 ```
 
-- Open `PROJECT_NAME.xcworkspace`
+- Open `Project.xcworkspace` or `Project.xcodeproj`
 
 ## Updating generated models
 
@@ -26,7 +26,7 @@ pod install
 ```
 mogenerator \
 --swift \
---model App/Models/App.xcdatamodeld/App.xcdatamodel \
---output-dir App/Models \
+--model iOS/Models/App.xcdatamodeld/App.xcdatamodel \
+--output-dir iOS/Models \
 --v2
 ```
