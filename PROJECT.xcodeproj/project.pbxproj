@@ -160,7 +160,7 @@
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = ORGANIZATION;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					146E27881BCD51C800959BBA = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -392,6 +392,7 @@
 				146E27981BCD51C800959BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		147A139F1B92B9E300E52F9C /* Build configuration list for PBXProject "Project" */ = {
 			isa = XCConfigurationList;
