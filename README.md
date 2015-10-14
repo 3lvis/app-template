@@ -1,4 +1,4 @@
-# AppTemplate
+# App Template
 
 This is a template for your iOS project. It's main purpose is to ease the creation of storyboard-less well structured apps.
 
