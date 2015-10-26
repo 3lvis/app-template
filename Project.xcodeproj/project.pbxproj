@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A94912F571B213F5476BB1C /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A34B165B3DDF602D1210F42 /* Pods.framework */; };
+		1404F39A1BDE45CD0008377F /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1404F3991BDE45CD0008377F /* BaseCollectionViewController.swift */; };
 		141A6FD91BDE2DAB00CB6E82 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A6FD41BDE2DAB00CB6E82 /* BaseTableViewController.swift */; };
 		141A6FDA1BDE2DAB00CB6E82 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A6FD51BDE2DAB00CB6E82 /* BaseViewController.swift */; };
 		141A6FDB1BDE2DAB00CB6E82 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A6FD61BDE2DAB00CB6E82 /* Fetcher.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		0217B13BEE12CB73D948E7EE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		1404F3991BDE45CD0008377F /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
 		141A6FD41BDE2DAB00CB6E82 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		141A6FD51BDE2DAB00CB6E82 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		141A6FD61BDE2DAB00CB6E82 /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			children = (
 				141A6FD41BDE2DAB00CB6E82 /* BaseTableViewController.swift */,
 				141A6FD51BDE2DAB00CB6E82 /* BaseViewController.swift */,
+				1404F3991BDE45CD0008377F /* BaseCollectionViewController.swift */,
 				141A6FD61BDE2DAB00CB6E82 /* Fetcher.swift */,
 				141A6FD71BDE2DAB00CB6E82 /* UIColor+Custom.swift */,
 				141A6FD81BDE2DAB00CB6E82 /* UIFont+Custom.swift */,
@@ -319,6 +322,7 @@
 				145F81CD1BDE2CFD0016A9E0 /* iOS.xcdatamodeld in Sources */,
 				146E27AD1BCD51F200959BBA /* RootController.swift in Sources */,
 				141A6FDA1BDE2DAB00CB6E82 /* BaseViewController.swift in Sources */,
+				1404F39A1BDE45CD0008377F /* BaseCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

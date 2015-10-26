@@ -1,14 +1,14 @@
 import UIKit
 
-public class BaseViewController: UIViewController {
+public class BaseCollectionViewController: UICollectionViewController {
     internal var fetcher: Fetcher
 
     // MARK: - Initializers
 
-    public init(fetcher: Fetcher) {
+    public init(fetcher: Fetcher, collectionViewLayout: UICollectionViewLayout) {
         self.fetcher = fetcher
 
-        super.init(nibName: nil, bundle: nil)
+        super.init(collectionViewLayout: collectionViewLayout)
     }
 
     public required init?(coder aDecoder: NSCoder) {
