@@ -1,0 +1,51 @@
+PODS:
+  - DATAFilter (0.9.1):
+    - DATAObjectIDs (~> 0.5.1)
+  - DATAObjectIDs (0.5.1)
+  - DATASource (5.6.0)
+  - DATAStack (4.2.0):
+    - TestCheck (~> 0.3.0)
+  - Hex (3.0.0)
+  - JSON (4.0.2)
+  - NetworkActivityIndicator (0.1.5)
+  - Networking (0.17.0):
+    - JSON (~> 4.0.2)
+    - NetworkActivityIndicator (~> 0.1.5)
+    - TestCheck (~> 0.3.0)
+  - NSDictionary-ANDYSafeValue (0.3.1)
+  - NSEntityDescription-SYNCPrimaryKey (0.1.2):
+    - NSString-HYPNetworking (~> 0.4.0)
+  - NSManagedObject-HYPPropertyMapper (3.4.2):
+    - NSString-HYPNetworking (~> 0.4.0)
+  - NSString-HYPNetworking (0.4.0)
+  - Sync (1.5.2):
+    - DATAFilter (~> 0.9.1)
+    - DATAStack (~> 4.2.0)
+    - NSDictionary-ANDYSafeValue (~> 0.3.1)
+    - NSEntityDescription-SYNCPrimaryKey (~> 0.1.2)
+    - NSManagedObject-HYPPropertyMapper (~> 3.4.2)
+  - TestCheck (0.3.0)
+
+DEPENDENCIES:
+  - DATASource
+  - Hex
+  - Networking
+  - Sync
+
+SPEC CHECKSUMS:
+  DATAFilter: 4a1bdc065847e19d9fa1c9dd92ed2d85847967a1
+  DATAObjectIDs: 33db74dd1c858c2d22a45a4013c95f1082182e4e
+  DATASource: f189ace5ed4859501c9c48599625a1fe664d900f
+  DATAStack: b831724a52d67cc0cf098cf53774b8fdeab22a25
+  Hex: ee430da9c4412d9196366ae5327f279021dc03eb
+  JSON: d08f22c3e523be050d5d5f40bca43ec02d95b2cc
+  NetworkActivityIndicator: 875f05ba205b67394890527923fd03a7572e17cc
+  Networking: 6fb57008fb5f2db6c21a2b80ace55a7373b5c930
+  NSDictionary-ANDYSafeValue: 2d7adf339b6e302d71fec5f1d71ae00aacda993e
+  NSEntityDescription-SYNCPrimaryKey: 9a2b2f7b838913eb445f20cc2f2edca7281fcfa5
+  NSManagedObject-HYPPropertyMapper: 9f3dd46e4265d7f6ba1ce0039ce1fc28524e9937
+  NSString-HYPNetworking: 24c3828eebde8a37cc16101a475934a56ac820c0
+  Sync: 66abc80c70f5316ef804027878b946f31ad6114b
+  TestCheck: 42c1343664986c0cbfaa20a62622d6f6fb70a407
+
+COCOAPODS: 0.39.0
