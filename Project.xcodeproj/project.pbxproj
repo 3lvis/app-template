@@ -14,13 +14,14 @@
 		141A6FDB1BDE2DAB00CB6E82 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A6FD61BDE2DAB00CB6E82 /* Fetcher.swift */; };
 		141A6FDC1BDE2DAB00CB6E82 /* UIColor+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A6FD71BDE2DAB00CB6E82 /* UIColor+Custom.swift */; };
 		141A6FDD1BDE2DAB00CB6E82 /* UIFont+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A6FD81BDE2DAB00CB6E82 /* UIFont+Custom.swift */; };
-		145F81CD1BDE2CFD0016A9E0 /* iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 145F81CB1BDE2CFD0016A9E0 /* iOS.xcdatamodeld */; };
 		146E27A91BCD51F200959BBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146E279F1BCD51F200959BBA /* LaunchScreen.xib */; };
 		146E27AA1BCD51F200959BBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146E27A11BCD51F200959BBA /* Images.xcassets */; };
 		146E27AC1BCD51F200959BBA /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146E27A41BCD51F200959BBA /* AppController.swift */; };
 		146E27AD1BCD51F200959BBA /* RootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146E27A51BCD51F200959BBA /* RootController.swift */; };
 		146E27AE1BCD51F200959BBA /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146E27A61BCD51F200959BBA /* RootView.swift */; };
 		1483128E1B92C11500266943 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483128D1B92C11500266943 /* Tests.swift */; };
+		14CB87E61C96F94F007376A6 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14CB87E41C96F94F007376A6 /* DataModel.xcdatamodeld */; };
+		14CB87E71C96F94F007376A6 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14CB87E41C96F94F007376A6 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,6 @@
 		141A6FD61BDE2DAB00CB6E82 /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
 		141A6FD71BDE2DAB00CB6E82 /* UIColor+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Custom.swift"; sourceTree = "<group>"; };
 		141A6FD81BDE2DAB00CB6E82 /* UIFont+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Custom.swift"; sourceTree = "<group>"; };
-		145F81CC1BDE2CFD0016A9E0 /* App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = App.xcdatamodel; sourceTree = "<group>"; };
 		146E27891BCD51C800959BBA /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146E27A01BCD51F200959BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		146E27A11BCD51F200959BBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -42,6 +42,7 @@
 		148312891B92C11500266943 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1483128C1B92C11500266943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1483128D1B92C11500266943 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		14CB87E51C96F94F007376A6 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		6A34B165B3DDF602D1210F42 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7007EA8FF8BABCFC3034674 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,6 +69,7 @@
 		141A6FD31BDE2DAB00CB6E82 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				14CB87E31C96F94F007376A6 /* Models */,
 				141A6FD41BDE2DAB00CB6E82 /* BaseTableViewController.swift */,
 				141A6FD51BDE2DAB00CB6E82 /* BaseViewController.swift */,
 				1404F3991BDE45CD0008377F /* BaseCollectionViewController.swift */,
@@ -81,19 +83,10 @@
 		146E278A1BCD51C800959BBA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				146E279B1BCD51F200959BBA /* Models */,
 				146E279E1BCD51F200959BBA /* Resources */,
 				146E27A31BCD51F200959BBA /* Source */,
 			);
 			path = iOS;
-			sourceTree = "<group>";
-		};
-		146E279B1BCD51F200959BBA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				145F81CB1BDE2CFD0016A9E0 /* iOS.xcdatamodeld */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		146E279E1BCD51F200959BBA /* Resources */ = {
@@ -144,6 +137,14 @@
 				1483128C1B92C11500266943 /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		14CB87E31C96F94F007376A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				14CB87E41C96F94F007376A6 /* DataModel.xcdatamodeld */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		65453B2E3E8B042C8B17E59D /* Frameworks */ = {
@@ -319,8 +320,8 @@
 				146E27AE1BCD51F200959BBA /* RootView.swift in Sources */,
 				141A6FDD1BDE2DAB00CB6E82 /* UIFont+Custom.swift in Sources */,
 				141A6FD91BDE2DAB00CB6E82 /* BaseTableViewController.swift in Sources */,
-				145F81CD1BDE2CFD0016A9E0 /* iOS.xcdatamodeld in Sources */,
 				146E27AD1BCD51F200959BBA /* RootController.swift in Sources */,
+				14CB87E61C96F94F007376A6 /* DataModel.xcdatamodeld in Sources */,
 				141A6FDA1BDE2DAB00CB6E82 /* BaseViewController.swift in Sources */,
 				1404F39A1BDE45CD0008377F /* BaseCollectionViewController.swift in Sources */,
 			);
@@ -331,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1483128E1B92C11500266943 /* Tests.swift in Sources */,
+				14CB87E71C96F94F007376A6 /* DataModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,13 +524,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		145F81CB1BDE2CFD0016A9E0 /* iOS.xcdatamodeld */ = {
+		14CB87E41C96F94F007376A6 /* DataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				145F81CC1BDE2CFD0016A9E0 /* App.xcdatamodel */,
+				14CB87E51C96F94F007376A6 /* DataModel.xcdatamodel */,
 			);
-			currentVersion = 145F81CC1BDE2CFD0016A9E0 /* App.xcdatamodel */;
-			path = iOS.xcdatamodeld;
+			currentVersion = 14CB87E51C96F94F007376A6 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
