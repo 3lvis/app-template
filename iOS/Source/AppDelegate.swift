@@ -5,7 +5,7 @@ class AppDelegate: UIResponder {
     var window: UIWindow?
 
     private lazy var fetcher: Fetcher = {
-        let fetcher = Fetcher(baseURL: "https://server.com", modelName: "iOS")
+        let fetcher = Fetcher(baseURL: "https://server.com", modelName: "DataModel")
 
         return fetcher
     }()
