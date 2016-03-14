@@ -26,7 +26,7 @@ pod install
 ```
 mogenerator \
 --swift \
---model iOS/Models/App.xcdatamodeld/App.xcdatamodel \
---output-dir iOS/Models \
+--model Library/Models/DataModel.xcdatamodeld/DataModel.xcdatamodel \
+--output-dir Library/Models \
 --v2
 ```
