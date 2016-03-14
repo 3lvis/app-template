@@ -4,6 +4,7 @@ import Networking
 import JSON
 import Sync
 import DATASource
+import CoreData
 
 public class Fetcher {
     private var data: DATAStack
