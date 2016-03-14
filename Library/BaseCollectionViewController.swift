@@ -3,8 +3,6 @@ import UIKit
 public class BaseCollectionViewController: UICollectionViewController {
     internal var fetcher: Fetcher
 
-    // MARK: - Initializers
-
     public init(fetcher: Fetcher, collectionViewLayout: UICollectionViewLayout) {
         self.fetcher = fetcher
 
