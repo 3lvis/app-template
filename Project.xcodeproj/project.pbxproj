@@ -359,7 +359,7 @@
 				INFOPLIST_FILE = iOS/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "COM.COMPANY-NAME.APP-NAME.iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoapp.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -372,7 +372,7 @@
 				INFOPLIST_FILE = iOS/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "COM.COMPANY-NAME.APP-NAME.iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoapp.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
