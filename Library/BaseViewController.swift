@@ -3,8 +3,6 @@ import UIKit
 public class BaseViewController: UIViewController {
     internal var fetcher: Fetcher
 
-    // MARK: - Initializers
-
     public init(fetcher: Fetcher) {
         self.fetcher = fetcher
 

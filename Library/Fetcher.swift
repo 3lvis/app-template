@@ -10,14 +10,10 @@ public class Fetcher {
     private var data: DATAStack
     private var networking: Networking
 
-    // MARK: - Initializers
-
     init(baseURL: String, modelName: String) {
         self.data = DATAStack(modelName: modelName)
         self.networking = Networking(baseURL: baseURL)
     }
-
-    // MARK: - Public methods
 
     public func persistWithCompletion(completion: () -> ()) {
         data.persistWithCompletion(completion)
@@ -35,8 +31,6 @@ public class Fetcher {
         }
     }
 }
-
-// MARK: DATASource helpers
 
 extension Fetcher {
     public func dataSource(tableView: UITableView, cellIdentifier: String, fetchRequest: NSFetchRequest, sectionName: String? = nil, configuration: (cell: UITableViewCell, item: NSManagedObject, indexPath: NSIndexPath) -> ()) -> DATASource {
