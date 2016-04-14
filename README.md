@@ -2,7 +2,6 @@
 
 This is a template for your iOS project. It's main purpose is to ease the creation of storyboard-less well structured apps.
 
-- [x] Renamed AppDelegate to AppController
 - [x] Removed Main.storyboard
 - [x] Moved Info.plist, Image.xcassets and LaunchScreen.xib to **Resources**
 - [x] Added iOS target, useful when you need other targets such as tvOS or watchOS.
