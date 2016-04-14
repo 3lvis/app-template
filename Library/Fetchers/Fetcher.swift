@@ -1,7 +1,6 @@
 import Foundation
 import DATAStack
 import Networking
-import JSON
 import Sync
 import DATASource
 import CoreData
