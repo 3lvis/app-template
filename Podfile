@@ -1,8 +1,11 @@
 use_frameworks!
 
-# link_with 'iOS', 'tvOS', 'watchOS'
+target 'iOS' do
+  pod 'Sync'
+  pod 'Networking'
+  pod 'DATASource'
+  pod 'Hex'
+end
 
-pod 'Sync'
-pod 'Networking'
-pod 'DATASource'
-pod 'Hex'
+target 'Tests' do
+end
