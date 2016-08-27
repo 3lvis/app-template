@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14425E551C97078A00F0FAD1 /* UIColor+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14425E4D1C97078A00F0FAD1 /* UIColor+Custom.swift */; };
-		14425E561C97078A00F0FAD1 /* UIColor+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14425E4D1C97078A00F0FAD1 /* UIColor+Custom.swift */; };
-		14425E571C97078A00F0FAD1 /* UIFont+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14425E4E1C97078A00F0FAD1 /* UIFont+Custom.swift */; };
-		14425E581C97078A00F0FAD1 /* UIFont+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14425E4E1C97078A00F0FAD1 /* UIFont+Custom.swift */; };
+		14425E551C97078A00F0FAD1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14425E4D1C97078A00F0FAD1 /* Theme.swift */; };
+		14425E561C97078A00F0FAD1 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14425E4D1C97078A00F0FAD1 /* Theme.swift */; };
 		14425E591C97078A00F0FAD1 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14425E501C97078A00F0FAD1 /* Fetcher.swift */; };
 		14425E5A1C97078A00F0FAD1 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14425E501C97078A00F0FAD1 /* Fetcher.swift */; };
 		14425E5B1C97078A00F0FAD1 /* BaseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14425E521C97078A00F0FAD1 /* BaseCollectionViewController.swift */; };
@@ -30,8 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14425E4D1C97078A00F0FAD1 /* UIColor+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Custom.swift"; sourceTree = "<group>"; };
-		14425E4E1C97078A00F0FAD1 /* UIFont+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Custom.swift"; sourceTree = "<group>"; };
+		14425E4D1C97078A00F0FAD1 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		14425E501C97078A00F0FAD1 /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
 		14425E521C97078A00F0FAD1 /* BaseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewController.swift; sourceTree = "<group>"; };
 		14425E531C97078A00F0FAD1 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
@@ -81,8 +78,7 @@
 		14425E4C1C97078A00F0FAD1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				14425E4D1C97078A00F0FAD1 /* UIColor+Custom.swift */,
-				14425E4E1C97078A00F0FAD1 /* UIFont+Custom.swift */,
+				14425E4D1C97078A00F0FAD1 /* Theme.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -309,9 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14425E571C97078A00F0FAD1 /* UIFont+Custom.swift in Sources */,
 				146E27AC1BCD51F200959BBA /* AppDelegate.swift in Sources */,
-				14425E551C97078A00F0FAD1 /* UIColor+Custom.swift in Sources */,
+				14425E551C97078A00F0FAD1 /* Theme.swift in Sources */,
 				146E27AE1BCD51F200959BBA /* RootView.swift in Sources */,
 				146E27AD1BCD51F200959BBA /* RootController.swift in Sources */,
 				14CB87E61C96F94F007376A6 /* DataModel.xcdatamodeld in Sources */,
@@ -327,13 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1483128E1B92C11500266943 /* Tests.swift in Sources */,
-				14425E581C97078A00F0FAD1 /* UIFont+Custom.swift in Sources */,
 				14CB87E71C96F94F007376A6 /* DataModel.xcdatamodeld in Sources */,
 				14425E5E1C97078A00F0FAD1 /* BaseTableViewController.swift in Sources */,
 				14425E5C1C97078A00F0FAD1 /* BaseCollectionViewController.swift in Sources */,
 				14425E601C97078A00F0FAD1 /* BaseViewController.swift in Sources */,
 				14425E5A1C97078A00F0FAD1 /* Fetcher.swift in Sources */,
-				14425E561C97078A00F0FAD1 /* UIColor+Custom.swift in Sources */,
+				14425E561C97078A00F0FAD1 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
