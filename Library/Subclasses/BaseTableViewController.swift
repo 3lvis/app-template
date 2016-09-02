@@ -1,12 +1,12 @@
-import UIKit
+import SweetUIKit
 
-public class BaseTableViewController: UITableViewController {
+public class BaseTableViewController: SweetTableController {
     internal var fetcher: Fetcher
 
-    public init(fetcher: Fetcher) {
+    public init(fetcher: Fetcher, tableViewStyle: UITableViewStyle = .Plain) {
         self.fetcher = fetcher
 
-        super.init(nibName: nil, bundle: nil)
+        super.init(with: tableViewStyle)
     }
 
     public required init?(coder aDecoder: NSCoder) {
