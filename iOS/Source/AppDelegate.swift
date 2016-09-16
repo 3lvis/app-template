@@ -4,7 +4,7 @@ import UIKit
 class AppDelegate: UIResponder {
     var window: UIWindow?
 
-    fileprivate lazy var fetcher: Fetcher = {
+    lazy var fetcher: Fetcher = {
         let fetcher = Fetcher(baseURL: "https://server.com", modelName: "DataModel")
 
         return fetcher
