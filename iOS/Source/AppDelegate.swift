@@ -4,7 +4,7 @@ import UIKit
 class AppDelegate: UIResponder {
     var window: UIWindow?
 
-    private lazy var fetcher: Fetcher = {
+    fileprivate lazy var fetcher: Fetcher = {
         let fetcher = Fetcher(baseURL: "https://server.com", modelName: "DataModel")
 
         return fetcher
@@ -12,8 +12,8 @@ class AppDelegate: UIResponder {
 }
 
 extension AppDelegate: UIApplicationDelegate {
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        window = UIWindow(frame: UIScreen.main.bounds)
         guard let window = self.window else { fatalError("Window not found") }
 
         window.rootViewController = RootController(fetcher: self.fetcher)

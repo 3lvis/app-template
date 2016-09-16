@@ -2,7 +2,7 @@ import UIKit
 
 class RootController: BaseViewController {
     override func loadView() {
-        let view = RootView(frame: UIScreen.mainScreen().bounds)
+        let view = RootView(frame: UIScreen.main.bounds)
         self.view = view
     }
 

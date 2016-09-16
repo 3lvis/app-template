@@ -14,7 +14,7 @@ PODS:
     - NSEntityDescription-SYNCPrimaryKey (~> 1.2.4)
     - NSString-HYPNetworking (~> 1.0.3)
   - NSString-HYPNetworking (1.0.3)
-  - SweetUIKit (0.2.0)
+  - SweetUIKit (1.0.0)
   - Sync (2.0.0):
     - DATAFilter (~> 1.0.0)
     - DATAStack (~> 6.0.0)
@@ -41,7 +41,7 @@ SPEC CHECKSUMS:
   NSEntityDescription-SYNCPrimaryKey: 8f3024bddb098157b08710dc29a011e9948c5ed8
   NSManagedObject-HYPPropertyMapper: 2b42481a261b467024f6b6096fbe0a307a5198e3
   NSString-HYPNetworking: d4cc1047b85a02bdadd90c51b5d497e07d812efc
-  SweetUIKit: 96f737f5fd5d05e411303aee630cb948a1132cc0
+  SweetUIKit: 42049ac4eb39a328ac74f2648eddba65d5c933be
   Sync: 2a429ed8134bdafa7258311dc6ef50df269bb4de
   TestCheck: af3ff0c7c7c22cc4fbcc49a7e10d4187f0cbf1b9
 

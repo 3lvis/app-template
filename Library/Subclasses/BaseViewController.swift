@@ -1,6 +1,6 @@
 import UIKit
 
-public class BaseViewController: UIViewController {
+open class BaseViewController: UIViewController {
     internal var fetcher: Fetcher
 
     public init(fetcher: Fetcher) {
