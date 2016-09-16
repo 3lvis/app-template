@@ -4,7 +4,7 @@ class RootView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
 
-        backgroundColor = .redColor()
+        backgroundColor = .red
     }
 
     required init?(coder aDecoder: NSCoder) {

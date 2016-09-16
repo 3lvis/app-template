@@ -1,6 +1,6 @@
 import SweetUIKit
 
-public class BaseCollectionViewController: SweetCollectionController {
+open class BaseCollectionViewController: SweetCollectionController {
     internal var fetcher: Fetcher
 
     public init(fetcher: Fetcher, collectionViewLayout: UICollectionViewLayout) {

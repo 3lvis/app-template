@@ -1,9 +1,9 @@
 import SweetUIKit
 
-public class BaseTableViewController: SweetTableController {
+open class BaseTableViewController: SweetTableController {
     internal var fetcher: Fetcher
 
-    public init(fetcher: Fetcher, tableViewStyle: UITableViewStyle = .Plain) {
+    public init(fetcher: Fetcher, tableViewStyle: UITableViewStyle = .plain) {
         self.fetcher = fetcher
 
         super.init(with: tableViewStyle)
