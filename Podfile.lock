@@ -25,10 +25,10 @@ PODS:
   - TestCheck (1.0.0)
 
 DEPENDENCIES:
-  - DATASource
-  - Networking
-  - SweetUIKit
-  - Sync
+  - DATASource (~> 6)
+  - Networking (~> 2)
+  - SweetUIKit (~> 1)
+  - Sync (~> 2)
 
 SPEC CHECKSUMS:
   DATAFilter: 6f6b7de6a004bbb172b78880f72fdc7f618fc4da
@@ -45,6 +45,6 @@ SPEC CHECKSUMS:
   Sync: 2a429ed8134bdafa7258311dc6ef50df269bb4de
   TestCheck: af3ff0c7c7c22cc4fbcc49a7e10d4187f0cbf1b9
 
-PODFILE CHECKSUM: a3749f91b99f45fc78d9efe3a3494181fdf774d7
+PODFILE CHECKSUM: 59b9e3eb21e2c042519bb3f4aa74e407dd6d4c9e
 
 COCOAPODS: 1.1.0.rc.2
