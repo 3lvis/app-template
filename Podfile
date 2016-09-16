@@ -1,12 +1,14 @@
 use_frameworks!
 
-target 'iOS' do
+abstract_target 'CocoaPods' do
   pod 'SweetUIKit'
   pod 'Sync'
   pod 'Networking'
   pod 'DATASource'
-  pod 'Hex'
-end
 
-target 'Tests' do
+  target 'iOS' do
+  end
+
+  target 'Tests' do
+  end
 end
