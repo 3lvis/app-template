@@ -1,12 +1,11 @@
-import UIKit
+import SweetUIKit
 
-public class BaseCollectionViewController: UICollectionViewController {
+public class BaseCollectionViewController: SweetCollectionController {
     internal var fetcher: Fetcher
 
     public init(fetcher: Fetcher, collectionViewLayout: UICollectionViewLayout) {
         self.fetcher = fetcher
-
-        super.init(collectionViewLayout: collectionViewLayout)
+        super.init(withCollectionViewLayout: collectionViewLayout)
     }
 
     public required init?(coder aDecoder: NSCoder) {

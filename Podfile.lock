@@ -1,0 +1,50 @@
+PODS:
+  - DATAFilter (1.0.0):
+    - DATAObjectIDs (~> 0.6.0)
+  - DATAObjectIDs (0.6.0)
+  - DATASource (6.0.0)
+  - DATAStack (6.0.0)
+  - DateParser (0.1.0)
+  - Networking (2.0.0)
+  - NSDictionary-ANDYSafeValue (0.3.1)
+  - NSEntityDescription-SYNCPrimaryKey (1.2.4):
+    - NSString-HYPNetworking (~> 1.0.3)
+  - NSManagedObject-HYPPropertyMapper (4.0.1):
+    - DateParser (~> 0.1.0)
+    - NSEntityDescription-SYNCPrimaryKey (~> 1.2.4)
+    - NSString-HYPNetworking (~> 1.0.3)
+  - NSString-HYPNetworking (1.0.3)
+  - SweetUIKit (0.2.0)
+  - Sync (2.0.0):
+    - DATAFilter (~> 1.0.0)
+    - DATAStack (~> 6.0.0)
+    - NSDictionary-ANDYSafeValue (~> 0.3.1)
+    - NSEntityDescription-SYNCPrimaryKey (~> 1.2.4)
+    - NSManagedObject-HYPPropertyMapper (~> 4.0.1)
+    - TestCheck (~> 1.0.0)
+  - TestCheck (1.0.0)
+
+DEPENDENCIES:
+  - DATASource
+  - Networking
+  - SweetUIKit
+  - Sync
+
+SPEC CHECKSUMS:
+  DATAFilter: 6f6b7de6a004bbb172b78880f72fdc7f618fc4da
+  DATAObjectIDs: e3d50315134d21009f3b34983bcf44e74d8ab54a
+  DATASource: fab70e3d22acf03b8eced9a015bdca38b5b08505
+  DATAStack: 4cdf8e1b50f6d80c7d70f75e7a2c29545a008860
+  DateParser: 6609ccde5a21650e2f61cea718a2e5c6c34ce4e8
+  Networking: ed7f80630c110d0f5c7c594aef703e21578d50c9
+  NSDictionary-ANDYSafeValue: 2d7adf339b6e302d71fec5f1d71ae00aacda993e
+  NSEntityDescription-SYNCPrimaryKey: 8f3024bddb098157b08710dc29a011e9948c5ed8
+  NSManagedObject-HYPPropertyMapper: 2b42481a261b467024f6b6096fbe0a307a5198e3
+  NSString-HYPNetworking: d4cc1047b85a02bdadd90c51b5d497e07d812efc
+  SweetUIKit: 96f737f5fd5d05e411303aee630cb948a1132cc0
+  Sync: 2a429ed8134bdafa7258311dc6ef50df269bb4de
+  TestCheck: af3ff0c7c7c22cc4fbcc49a7e10d4187f0cbf1b9
+
+PODFILE CHECKSUM: a3749f91b99f45fc78d9efe3a3494181fdf774d7
+
+COCOAPODS: 1.1.0.rc.2

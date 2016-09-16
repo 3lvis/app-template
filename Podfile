@@ -1,6 +1,7 @@
 use_frameworks!
 
 abstract_target 'CocoaPods' do
+  pod 'SweetUIKit'
   pod 'Sync'
   pod 'Networking'
   pod 'DATASource'
