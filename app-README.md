@@ -4,19 +4,7 @@ PROJECT_DESCRIPTION
 
 ## Running the project
 
-- Install the [cocoapods](https://cocoapods.org) gem
-
-```
-sudo gem install cocoapods
-```
-
-- Run the following command in Terminal.app
-
-```
-pod install
-```
-
-- Open `Project.xcworkspace` or `Project.xcodeproj`
+- Open `Project.xcodeproj` and run
 
 ## Updating generated models
 
