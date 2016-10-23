@@ -3,9 +3,7 @@ import UIKit
 class ItemsController: UITableViewController {
     var fetcher: Fetcher
 
-    var cellIdentifier: String {
-        return String(describing: UITableViewCell.self)
-    }
+    let cellIdentifier = String(describing: UITableViewCell.self)
 
     init(style: UITableViewStyle = .plain, fetcher: Fetcher) {
         self.fetcher = fetcher
