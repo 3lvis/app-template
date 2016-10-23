@@ -13,8 +13,8 @@
 		14425E591C97078A00F0FAD1 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14425E501C97078A00F0FAD1 /* Fetcher.swift */; };
 		14425E5A1C97078A00F0FAD1 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14425E501C97078A00F0FAD1 /* Fetcher.swift */; };
 		144DD0921DB3B8400037C92E /* ItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DD08D1DB3B8400037C92E /* ItemsController.swift */; };
-		144DD0931DB3B8400037C92E /* ItemsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DD08F1DB3B8400037C92E /* ItemsHeaderView.swift */; };
 		144DD0941DB3B8400037C92E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144DD0911DB3B8400037C92E /* AppDelegate.swift */; };
+		1459F0DF1DBD20F000311892 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1459F0DE1DBD20F000311892 /* ItemCell.swift */; };
 		146E27A91BCD51F200959BBA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146E279F1BCD51F200959BBA /* LaunchScreen.xib */; };
 		146E27AA1BCD51F200959BBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146E27A11BCD51F200959BBA /* Images.xcassets */; };
 		1483128E1B92C11500266943 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1483128D1B92C11500266943 /* Tests.swift */; };
@@ -27,8 +27,8 @@
 		14425E4D1C97078A00F0FAD1 /* Theme+Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Theme+Font.swift"; sourceTree = "<group>"; };
 		14425E501C97078A00F0FAD1 /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
 		144DD08D1DB3B8400037C92E /* ItemsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsController.swift; sourceTree = "<group>"; };
-		144DD08F1DB3B8400037C92E /* ItemsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsHeaderView.swift; sourceTree = "<group>"; };
 		144DD0911DB3B8400037C92E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1459F0DE1DBD20F000311892 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		146E27891BCD51C800959BBA /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		146E27A01BCD51F200959BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		146E27A11BCD51F200959BBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -87,8 +87,8 @@
 		144DD08B1DB3B8400037C92E /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				1459F0DD1DBD20F000311892 /* Cells */,
 				144DD08C1DB3B8400037C92E /* Controllers */,
-				144DD08E1DB3B8400037C92E /* Views */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -101,20 +101,20 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		144DD08E1DB3B8400037C92E /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				144DD08F1DB3B8400037C92E /* ItemsHeaderView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		144DD0901DB3B8400037C92E /* Root */ = {
 			isa = PBXGroup;
 			children = (
 				144DD0911DB3B8400037C92E /* AppDelegate.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		1459F0DD1DBD20F000311892 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1459F0DE1DBD20F000311892 /* ItemCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		146E278A1BCD51C800959BBA /* iOS */ = {
@@ -316,8 +316,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				14425E551C97078A00F0FAD1 /* Theme+Font.swift in Sources */,
-				144DD0931DB3B8400037C92E /* ItemsHeaderView.swift in Sources */,
 				14CB87E61C96F94F007376A6 /* DataModel.xcdatamodeld in Sources */,
+				1459F0DF1DBD20F000311892 /* ItemCell.swift in Sources */,
 				143F99F61D8C5B78005D1552 /* Theme+Color.swift in Sources */,
 				144DD0921DB3B8400037C92E /* ItemsController.swift in Sources */,
 				144DD0941DB3B8400037C92E /* AppDelegate.swift in Sources */,
